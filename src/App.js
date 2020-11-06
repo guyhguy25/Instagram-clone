@@ -81,7 +81,7 @@ function App({hideLoader}) {
         })));
         })
     }, []);
-
+    console.log(posts);
   return (
     <div className="App">
         <Router>
@@ -91,7 +91,7 @@ function App({hideLoader}) {
                 <AuthRoute path="/Loginnew" component={Loginnew} authenticated={authenticated}/>
                 <Route path="/Register" component={Register} />
                 <Route path="/direct/inbox" component={Messenger} />
-                <Route path="/explore/" component={Test} />
+                <Route path="/explore/" component={Messenger} />
                 <Route path="/p/:userPost" component={UserPost} />
                 <Route path="/:userId" component={UserProfile} />
                 <Route exact path="/">
@@ -99,7 +99,8 @@ function App({hideLoader}) {
                         <section className="app__posts">
                             <div className="app__post">
                                 <Story />
-                                {posts.map(({id, post, userlike}) => (<Post key={id} postId={id} user={user} username={post.username} caption={post.caption} imageUrl={post.imageUrl} likes={post.likes} userslike={userlike}/>))}
+                                <Test />
+                                {/* {posts.map(({id, post, userlike}) => (<Post key={id} postId={id} user={user} username={post.username} caption={post.caption} imageUrl={post.imageUrl} likes={post.likes} userslike={userlike}/>))} */}
                             </div>
                             <div className="main-right" id="mainRight">
                                 <Suggestions usersrc={userlogin?.displayName}/>

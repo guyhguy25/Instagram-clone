@@ -1,17 +1,25 @@
-# Project Name
+# Instagram-Clone Front-End (React & Firebase)
 
-Project Description
+Full Stack Instagram-Clone
+
+https://instgram-clone-react-a6109.web.app/
 
 ### Todo
-- [ ] Change all firebase-frontend to Firebase Functions that was created in here: (https://github.com/guyhguy25/instagram-functions)
-- [ ] Followers and Following open dialog in UserProfile  
-  - [ ] Post open dialog in UserProfile  
-- [ ] Install stories  
-  - [ ] Favorites Stories in header  
+- [ ] Explore Page
+- [ ] Upload Image (facebook look a like)
+- [ ] Slider Images
+- [ ] Shares comments
+- [ ] Profile
+  - [ ] Settings
+  - [ ] Saved
+- [ ] Followers and Following open dialog in UserProfile
+  - [ ] Post open dialog in UserProfile
+- [ ] Install stories
+  - [ ] Favorites Stories in header
 
 ### In Progress
-
-- [ ] NavBar  
+- [ ] Change all firebase-frontend to Firebase Functions that was created in here: (https://github.com/guyhguy25/instagram-functions)
+- [ ] NavBar (fix search, connect to firebase)
 
 ### Done ✓
 
