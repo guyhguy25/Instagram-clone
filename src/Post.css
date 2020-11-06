@@ -1,0 +1,147 @@
+:root {
+  --i1d: 38,38,38;
+}
+
+.usernamea {
+    color: black;
+}
+
+#follow {
+    padding: 5px 9px;
+    color: #262626;
+    color: rgba(38, 38, 38, 1);
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid transparent;
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.users_like {
+    border: 1px solid red;
+}
+
+.post {
+    max-width: 616px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 60px;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.post__image {
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+strong {
+    font-weight: 600;
+    font: inherit;
+    font-size: 15px;
+}
+
+.caption_title {
+    display: inline;
+    position: relative;
+}
+
+.post__text {
+    /* old */
+    padding: 15px;
+    /* new */
+    /* color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 5px;
+    padding: 25px;
+    margin-left: -5px; */
+}
+
+.post__header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.post__avatar {
+    margin-right: 10px;
+}
+
+.post__commentBox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.post__comments {
+    padding: 15px;
+}
+
+.post__input {
+    flex: 1;
+    border: none;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+}
+
+.post__button:disabled {
+    color: #6082a3;
+}
+
+.post__button {
+    flex: 0;
+    color: #0095f6;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
+.post_UI {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.likes__button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+/* .postuser__image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    user-select: none;
+    object-fit: cover;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+} 
+
+.postuser {
+    position: relative;
+    background-color: #fafafa;
+    width: 100%;
+}
+.postuser__image {
+    vertical-align: middle;
+    margin-bottom: 22px;
+}*/
