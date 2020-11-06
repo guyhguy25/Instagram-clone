@@ -1,6 +1,6 @@
-# Project Name
+# Instagram-Clone Front-End (React & Firebase)
 
-Project Description
+Full Stack Instagram-Clone
 
 ### Todo
 - [ ] Change all firebase-frontend to Firebase Functions that was created in here: (https://github.com/guyhguy25/instagram-functions)
